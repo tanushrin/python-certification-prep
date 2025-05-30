@@ -13,17 +13,17 @@
 
 ### 4. Instruction Set & Source Code
 - **Instruction List (IL)**: List of basic instructions CPU understands (e.g., x86, ARM).
-- **Source Code**: Human-readable code (e.g., `.py`, `.cpp`).
+- **Source Code**: Human-readable code (e.g., `.py`, `.cpp`). Program written in a high-level programming language.
 
 ### 5. Compilers vs Interpreters
-- **Compiler**: Translates code once to binary; fast execution.
-- **Interpreter**: Translates code line-by-line; slower but more flexible.
+- **Compiler/translator**: Translates code once to binary(machine code); fast execution.
+- **Interpreter**: Executes code immediately line-by-line, without translating into a machine code; slower but more flexible.
 - **Python is interpreted**, usually using **CPython**.
 
 ### 6. Components of a Language
 - **Alphabet**: Symbols used to construct words.
 - **Lexis**: Set of valid words.
-- **Syntax**: Rules for valid sequences.
+- **Syntax**: Rules for valid sequences; to build gramatically correct(not necessarily meaningful) sentences in any language.
 - **Semantics**: Meaning of sequences.
 
 > 🧠 Tip: Python source files end in `.py` and are interpreted by CPython.
