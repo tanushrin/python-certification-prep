@@ -62,8 +62,19 @@ Line"""
 ---
 
 ## 5. Boolean Literals
-- Only two: `True`, `False`
+- Only two actual Boolean literals in Python: `True` and `False` (case-sensitive keywords)
+- `"True"` and `"False"` (with quotes) are **strings**, not Boolean values
 
+### Example:
+```python
+user_input = input("Enter a value: ")
+
+if user_input == True:         # ❌ Always False (comparing str to bool)
+    print("Matched True")
+
+if user_input == "True":       # ✅ Works if user types the string "True"
+    print("Matched 'True'")
+```
 ---
 
 ## 6. None Literal
