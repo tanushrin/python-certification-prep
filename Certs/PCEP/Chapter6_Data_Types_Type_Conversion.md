@@ -6,13 +6,24 @@
 - `int`: Integer numbers  
   Example: `10`, `-3`, `0x1F`
 - `float`: Decimal numbers  
-  Example: `3.14`, `-0.5`, `1e2`
+  Example: `3.14`, `-0.5`, `1e-2`, `4.`, `3E8`
+
+  ```python
+  # exponent (value after e) must be an integer
+  x = 3e4     # valid
+  x = 1.2E-2  # valid
+  x = 1e2.5   # ❌ invalid – exponent must be an integer
+  ```
+
+💡 The part **after `e` must always be an integer**, even if the base is a float.
+
+  
 - `complex`: Complex numbers  
   Example: `3+4j`
 
 ### Sequence Types
 - `str`: Strings (text)  
-  Example: `"hello"`, `'123'`
+  Example: `"hello"`, `'123'`, ```python   "I like \"Monty Python\""  ```
 
 ### Other Types
 - `bool`: Boolean values (`True`, `False`)
@@ -57,13 +68,14 @@ bool(0)        # False
 
 ## 4. Truthy and Falsy Values
 
-| Value       | Boolean Equivalent |
-|-------------|--------------------|
-| `0`, `0.0`  | `False`            |
-| `""`        | `False`            |
-| `None`      | `False`            |
-| `[]`, `{}`  | `False`            |
-| Any non-zero number or non-empty string/list | `True` |
+
+| Value        | Boolean Equivalent | Note                               |
+|--------------|--------------------|------------------------------------|
+| `None`       | `False`            | Behaves like False in conditions, but `None != False` |
+| `0`, `0.0`   | `False`            | Zero is always falsy               |
+| `""`, `[]`   | `False`            | Empty string/list is falsy         |
+| Non-zero or non-empty | `True`   | Anything with content is truthy    |
+
 
 ---
 
