@@ -3,6 +3,10 @@
 ## 1. What is a Variable?
 - A **variable** is a named container to store data.
 - It references a value stored in memory.
+  
+- Think of it like a **box with a label** — the name is written on the box, and the value goes inside.
+
+### 📦 Variable = box, Value = content
 
 ---
 
