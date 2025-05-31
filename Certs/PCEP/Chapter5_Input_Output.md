@@ -34,9 +34,13 @@ float(input("Enter a decimal: "))
 print("Hello", "World")
 ```
 
-### Customizing Output
-- `sep`: defines separator between values
-- `end`: defines what is printed at the end (default is newline)
+### 🛠️ Customizing Output in `print()`
+
+- `sep`: defines the **separator** between multiple values  
+  *(default is a space — i.e., `sep=' '`)*
+- `end`: defines **what is printed at the end** of the line  
+  *(default is a newline — i.e., `end='\n'`)*
+
 
 ### Examples:
 ```python
