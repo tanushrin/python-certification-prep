@@ -109,6 +109,8 @@ j = j - (i + var + rem)       # ➝ j -= (i + var + rem)
 x = x ** 2                    # ➝ x **= 2
 ```
 
+**NOTE:** Python always evaluates `*, /, //, %, **` before compound assignment like `/=, +=` ,etc.
+
 ### Expression Evaluation Example (Operator Precedence)
 
 Which of the following expressions evaluate to a **non-zero** result?  
