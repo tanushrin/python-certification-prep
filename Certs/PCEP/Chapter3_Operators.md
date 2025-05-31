@@ -1,4 +1,4 @@
-# ➗ Chapter 3: Operators
+# Chapter 3: Operators
 
 ## 1. What is an Operator?
 - An **operator** performs an operation on one or more operands.
@@ -34,6 +34,9 @@
 
 ## 3. Operator Precedence (High → Low)
 1. `**` (Right-to-left binding)
+
+    Ex: `2 ** 3 ** 2 → 2 ** 9 = 512`  ✅
+
 2. `*`, `/`, `//`, `%`
 3. `+`, `-`
 
@@ -72,3 +75,26 @@
 
 > ⚙️ Operators follow **left-sided binding** (except `**` which is right-sided).
 > Use parentheses `()` to clarify or override order of operations.
+
+---
+
+### Expression Evaluation Example (Operator Precedence)
+
+Which of the following expressions evaluate to a **non-zero** result?  
+(**Select two answers.**)
+
+| Expression             | Evaluation                          | Result  | ✅ Non-Zero? |
+|------------------------|--------------------------------------|---------|--------------|
+| `4 / 2 + 2 ** 1`       | `2.0 + 2`                            | `4.0`   | ✅ Yes        |
+| `1 // 2 + 3 * 4`       | `0 + 12`                             | `12`    | ✅ Yes        |
+| `1 ** 2 - 4 // 3`      | `1 - 1`                              | `0`     | ❌ No         |
+| `4 / 2 - 2 ** 1`       | `2.0 - 2`                            | `0.0`   | ❌ No         |
+| `1 - 2 // 3 + 4`       | `1 - 0 + 4`                          | `5`     | ✅ Yes        |
+
+---
+
+📌 **Key Notes:**
+- `**` has the highest precedence (evaluated right-to-left).
+- `/` always returns a `float`.
+- `//` performs floor division (result is integer).
+
