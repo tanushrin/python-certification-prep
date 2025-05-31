@@ -22,6 +22,18 @@
 🧠 **Division** always returns a float  
 💥 Division by zero raises `ZeroDivisionError`
 
+### Integer Division (`//`) and Rounding Behavior
+
+```python
+# Integer by integer division gives an integer result:
+print(6 // 4)    # 6 divided by 4 = 1.5 → floored to 1 (int)
+print(6. // 4)   # 6.0 divided by 4 = 1.5 → floored to 1.0 (float)
+
+# Now try with negative values:
+print(-6 // 4)   # -6 / 4 = -1.5 → floored to -2
+print(6. // -4)  # 6.0 / -4 = -1.5 → floored to -2.0
+```
+
 ---
 
 ### ➖ Unary Operators
@@ -90,11 +102,14 @@ Which of the following expressions evaluate to a **non-zero** result?
 | `1 ** 2 - 4 // 3`      | `1 - 1`                              | `0`     | ❌ No         |
 | `4 / 2 - 2 ** 1`       | `2.0 - 2`                            | `0.0`   | ❌ No         |
 | `1 - 2 // 3 + 4`       | `1 - 0 + 4`                          | `5`     | ✅ Yes        |
+| `10 % 4 % 3`           | `(10 % 4) % 3 = 2 % 3`               | `2`     | ✅ Yes        |
 
 ---
 
 📌 **Key Notes:**
 - `**` has the highest precedence (evaluated right-to-left).
+- when at least one `**` argument is a float, the result is a float, too.
 - `/` always returns a `float`.
 - `//` performs floor division (result is integer).
+- `%` (modulo) uses left-to-right (left-sided) binding just like `+, -, *, //`.
 
