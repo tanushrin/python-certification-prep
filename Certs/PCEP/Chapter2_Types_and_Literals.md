@@ -59,6 +59,26 @@
 Line"""
 ```
 
+### String Escape Sequence Example
+
+**📝 Scenario:**  
+Write a one-line piece of code using the `print()` function, along with newline (`\n`) and escape (`\"`) characters, to produce the expected output on three separate lines.
+
+---
+
+**💻 Code:**
+```python
+print("\"I'm\"\n\"\"learning\"\"\n\"\"\"Python\"\"\"")
+```
+
+**💻 Output:**
+```
+"I'm"
+""learning""
+"""Python"""
+```
+
+
 ---
 
 ## 5. Boolean Literals
@@ -75,6 +95,17 @@ if user_input == True:         # ❌ Always False (comparing str to bool)
 if user_input == "True":       # ✅ Works if user types the string "True"
     print("Matched 'True'")
 ```
+
+### Boolean Value Comparison Challenge
+
+```python
+# Challenge: What will be the output of the following code?
+
+print(True > False)   # True because True = 1 and False = 0 → 1 > 0
+print(True < False)   # False because 1 < 0 is not true
+```
+
+
 ---
 
 ## 6. None Literal
