@@ -75,6 +75,18 @@ multi-line comment
 '''
 ```
 
+
+### Understanding Comments and Code Execution
+
+What is the expected output of the following code?
+
+```python
+a = 1  # + 5 → This part is ignored, so a = 1
+a = a + a  # 1 + 1 = 2
+# a = a + 1  → Entire line is ignored
+print(a)  # 2
+```
+
 ---
 
 ## 6. Compound Assignment Operators
