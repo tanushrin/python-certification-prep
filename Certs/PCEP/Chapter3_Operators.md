@@ -90,6 +90,25 @@ print(6. // -4)  # 6.0 / -4 = -1.5 → floored to -2.0
 
 ---
 
+## 7. Compound Assignment Operators
+
+Python allows us to simplify expressions like:
+
+```python
+# General format:
+variable = variable op expression
+
+# Can be rewritten as:
+variable op = expression
+
+# Examples:
+i = i + 2 * j                 # ➝ i += 2 * j
+var = var / 2                 # ➝ var /= 2
+rem = rem % 10                # ➝ rem %= 10
+j = j - (i + var + rem)       # ➝ j -= (i + var + rem)
+x = x ** 2                    # ➝ x **= 2
+```
+
 ### Expression Evaluation Example (Operator Precedence)
 
 Which of the following expressions evaluate to a **non-zero** result?  
