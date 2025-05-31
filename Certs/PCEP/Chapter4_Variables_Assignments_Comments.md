@@ -16,12 +16,18 @@
 ```python
 my_var = 10
 _var1 = 'hello'
+samplevariable
+For = 'not for'  # It begins with a letter and For ≠ for.
+Other examples: true5, TRUE, 
+
 ```
 
 ### ❌ Invalid:
 ```python
 2cool = 5     # starts with digit
 class = 'bad' # keyword
+@home         # Begins with and conntains a symbol that is not allowed.
+Other examples: True, 365, &sleep:
 ```
 
 ---
