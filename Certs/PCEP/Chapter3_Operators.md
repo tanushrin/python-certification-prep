@@ -111,6 +111,91 @@ x = x ** 2                    # ➝ x **= 2
 
 **NOTE:** Python always evaluates `*, /, //, %, **` before compound assignment like `/=, +=` ,etc.
 
+---
+
+## 8. Bitwise Operators in Python
+
+Bitwise operators perform operations at the **bit level** and are used only with integers.
+
+| Operator | Name             | Description                                | Example        |
+|----------|------------------|--------------------------------------------|----------------|
+| `&`      | AND              | 1 if both bits are 1                        | `4 & 5 → 4`    |
+| `|`      | OR               | 1 if at least one bit is 1                  | `4 | 5 → 5`    |
+| `^`      | XOR              | 1 if bits are different                     | `4 ^ 5 → 1`    |
+| `~`      | NOT              | Inverts all bits (`~x = -x - 1`)            | `~4 → -5`      |
+| `<<`     | Left Shift       | Shifts bits left (same as `x * 2**n`)       | `4 << 2 → 16`  |
+| `>>`     | Right Shift      | Shifts bits right (same as `x // 2**n`)     | `4 >> 2 → 1`   |
+
+---
+
+### 🔁 Bitwise Shifts in Action
+
+```python
+print(17 >> 1)  # 17 // 2 → 8
+print(17 << 2)  # 17 * 4 → 68
+```
+
+- `17 >> 1` → floor divide by 2 → `8`
+- `17 << 2` → multiply by 4 → `68`
+
+✅ Output:
+```
+8
+68
+```
+
+---
+
+### ✅ Example 1: Logical Structure with `not`
+
+```python
+x = 1
+y = 0
+
+z = ((x == y) and (x == y)) or not(x == y)
+print(not(z))
+```
+
+**Explanation**:
+- `x == y` → `False`
+- `not(x == y)` → `True`
+- So `False and False or True` → `True`
+- Then `not(True)` → `False`
+
+✅ Output: `False`
+
+---
+
+### ✅ Example 2: Bitwise Playground
+
+```python
+x = 4
+y = 1
+
+a = x & y     # 4 & 1 → 0 (binary 100 & 001)
+b = x | y     # 4 | 1 → 5 (binary 100 | 001)
+c = ~x        # ~4 → -5 (inverts all bits)
+d = x ^ 5     # 4 ^ 5 → 1 (binary 100 ^ 101 → 001)
+e = x >> 2    # 4 >> 2 → 1 (binary 100 >> 2 → 001)
+f = x << 2    # 4 << 2 → 16 (binary 100 << 2 → 10000)
+
+print(a, b, c, d, e, f)
+```
+
+✅ Output:
+```
+0 5 -5 1 1 16
+```
+
+---
+
+### 🧠 Tip:
+Bitwise shifts are fast alternatives for multiplying or dividing by powers of 2:
+- `x << n` → `x * 2**n`
+- `x >> n` → `x // 2**n`
+
+---
+
 ### Expression Evaluation Example (Operator Precedence)
 
 Which of the following expressions evaluate to a **non-zero** result?  
