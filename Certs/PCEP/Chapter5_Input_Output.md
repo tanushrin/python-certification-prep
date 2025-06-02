@@ -89,7 +89,27 @@ How many arguments can the `print()` function output?
 - This is possible because of its function definition:
   ```python
   def print(*objects, sep=' ', end='\n', ...)
+  ```
+  
+---
 
+## 🧪 Mini Lab: Print True or False Without Using if
+
+Write a simple two-line program that takes an integer input from user and prints <b>False</b> if the number < 100 or prints <b>True</b>. (Don't use if statements)
+
+```python
+# Ask for user for an integer input `n`
+n = int(input())
+print(n >= 100)
+```
+
+
+### Example:
+```python
+Input: 55      ➝ False
+Input: 150     ➝ True
+```
+---
 
 ## 🕓 Mini Project: Calculating End Time of an Event
 
