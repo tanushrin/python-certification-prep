@@ -1,4 +1,4 @@
-# 🧺 Chapter 9: Lists and Basic Data Structures
+# Chapter 9: Lists and Basic Data Structures
 
 ## 1. What is a List?
 - A **list** is a collection of ordered, changeable (mutable) items.
@@ -56,9 +56,20 @@ fruits.insert(1, "kiwi")     # Add at index 1
 ```
 
 ### Remove items:
+There are **three ways** to remove items from a list:
+
 ```python
-fruits.remove("banana")      # Remove by value
-fruits.pop()                 # Remove last item
+fruits = ["apple", "banana", "cherry", "banana"]
+
+# 1️⃣ Remove by value (first match)
+fruits.remove("banana")      # Removes the first "banana"
+
+# 2️⃣ Remove by index
+del fruits[0]                # Removes "apple"
+
+# 3️⃣ Remove the last item (or by index)
+fruits.pop()                 # Removes the last item ("banana")
+fruits.pop(0)                # Removes the first item (now "cherry")
 ```
 
 ---
