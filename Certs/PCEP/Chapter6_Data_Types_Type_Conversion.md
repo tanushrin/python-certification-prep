@@ -90,3 +90,29 @@ int("abc")  # ValueError
 ---
 
 Note: Python automatically infers types, but conversion is useful for compatibility or input handling.
+
+
+---
+
+## 6. Mini Lab: Find the Largest of Three Numbers Using max()
+```python
+
+# 🔍 Scenario:
+# - Read three numbers from the user
+# - Use the built-in max() function to find the largest
+# - Print the result
+
+number1 = int(input("Enter the first number: "))
+number2 = int(input("Enter the second number: "))
+number3 = int(input("Enter the third number: "))
+
+largest_number = max(number1, number2, number3)
+
+print("The largest number is:", largest_number)
+
+# 🧪 Example Output:
+# Enter the first number: 17
+# Enter the second number: 9
+# Enter the third number: 24
+# ➝ The largest number is: 24
+```
