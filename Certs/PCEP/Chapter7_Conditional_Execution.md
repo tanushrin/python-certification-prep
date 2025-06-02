@@ -99,3 +99,33 @@ if age < 25 and is_student:
 ---
 
 Use conditionals to control which parts of your program run based on data and logic.
+
+
+---
+## 7. Mini Lab: Multiple if Statements + Final else
+```python
+
+
+x = 10
+
+if x > 5:  # True
+    print("x > 5")
+
+if x > 8:  # True
+    print("x > 8")
+
+if x > 10:  # False
+    print("x > 10")
+else:
+    print("else will be executed")
+
+# 🧪 Output:
+# x > 5
+# x > 8
+# else will be executed
+
+# 🔍 Explanation:
+# - The first two `if` blocks are True, so their print statements run.
+# - The third `if` is False, so the `else` paired with it is executed.
+# - This shows that `else` belongs only to the `if` directly above it.
+```
