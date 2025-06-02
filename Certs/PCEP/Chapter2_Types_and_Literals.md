@@ -112,3 +112,21 @@ print(True < False)   # False because 1 < 0 is not true
 - `None` represents the absence of a value
 
 > 🧠 Tip: Knowing literals is crucial for understanding what kind of data your variables are storing.
+
+---
+
+
+### 🔄 Type Coercion in Comparisons
+
+Python uses **type coercion** when comparing values of **compatible types**, such as `int` and `float`.
+
+This means Python will **automatically convert** one type to another (if safe) to perform the comparison.
+
+#### ✅ Example:
+```python
+print(2 == 2.0)     # True → int is promoted to float
+print(2 == "2")     # False → str is not comparable to int
+print(1 == True)    # True → True is treated as 1
+print(0 == False)   # True → False is treated as 0
+
+---
