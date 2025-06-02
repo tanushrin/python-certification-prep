@@ -46,7 +46,7 @@ print("Hello", "World")
 ```python
 print("A", "B", sep="-")       # A-B
 print("Line 1", end="...")     # Line 1...
-print("Next")                  # ...Next
+print("Next")                  # Next
 ```
 
 ---
@@ -70,6 +70,25 @@ print("Hello\nWorld")  # Hello
 ---
 
 > Tip: `input()` is for interaction, `print()` is for feedback. Together, they make your scripts user-friendly.
+
+
+---
+
+### ❓ Flashcard:
+
+**Q:**  
+How many arguments can the `print()` function output?
+
+**A:**  
+✅ **Any number of arguments (including zero)**
+
+---
+
+### 💡 Explanation:
+- `print()` accepts **zero or more** values.
+- This is possible because of its function definition:
+  ```python
+  def print(*objects, sep=' ', end='\n', ...)
 
 
 ## 🕓 Mini Project: Calculating End Time of an Event
