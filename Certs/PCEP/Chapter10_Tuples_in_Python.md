@@ -114,4 +114,38 @@ print(new_list)  # [1, 2, 3]
 
 ---
 
+---
+
+## 10. Tuple Concatenation
+
+You can **concatenate tuples** using the `+` operator. This creates a new tuple by joining the elements of both tuples.
+
+```python
+tup = (1,) + (1,)
+print(tup)           # Output: (1, 1)
+print(len(tup))      # Output: 2
+```
+
+### ⚠️ Important:
+- Make sure to include the comma in single-element tuples: `(1,)`, not `(1)`  
+  `(1)` is just an integer, not a tuple!
+
+```python
+print(type((1)))   # <class 'int'>
+print(type((1,)))  # <class 'tuple'>
+```
+
+```python
+tup = (1,)
+tup = tup + tup     # (1,) + (1,) → (1, 1)
+tup = tup + tup     # (1, 1) + (1, 1) → (1, 1, 1, 1)
+print(tup)          # Output: (1, 1, 1, 1)
+print(len(tup))     # Output: 4
+```
+
+Tuples are **immutable**, so each `+` operation returns a **new tuple**.
+
+---
+
+
 > 📌 Tuples are immutable, ordered, and support indexing just like lists — but they cannot be changed after creation.
