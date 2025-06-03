@@ -10,10 +10,12 @@
 6. [Data Types and Type Conversion](Chapter6_Data_Types_Type_Conversion.md)
 7. [Conditional Execution](Chapter7_Conditional_Execution.md)
 8. [Loops and Control Statements](Chapter8_Loops_and_Control.md)
-9. [Lists and Basic Data Structures](Chapter9_Lists_and_Data_Structures.md)
-10. [Functions](Chapter10_Functions.md)
-11. [Modules and Imports](Chapter11_Modules_and_Imports.md)
-12. [Errors and Exceptions](Chapter12_Errors_and_Exceptions.md)
-13. [File Handling](Chapter13_File_Handling.md)
+9. [Lists](Chapter9_Lists_and_Data_Structures.md)
+10. [Tuples](Chapter10_Tuples_in_Python.md)
+11. [Dictionaries](Chapter11_Dictionaries_in_Python.md)
+12. [Functions](Chapter12_Functions.md)
+13. [Modules and Imports](Chapter13_Modules_and_Imports.md)
+14. [Errors and Exceptions](Chapter14_Errors_and_Exceptions.md)
+15. [File Handling](Chapter15_File_Handling.md)
 
 > ✅ Continually updated with more chapters and quick-reference examples.
