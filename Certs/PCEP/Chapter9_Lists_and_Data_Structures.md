@@ -224,6 +224,7 @@ Lists can contain other lists:
 matrix = [[1, 2], [3, 4]]
 print(matrix[1][0])  # 3
 ```
+📌 [Explore Multi-Dimensional Lists (Nested Lists) →](Nested_Lists_Multidim.md)
 
 ---
 
