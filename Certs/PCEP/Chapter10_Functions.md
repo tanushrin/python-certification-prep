@@ -1,4 +1,4 @@
-# 🧰 Chapter 10: Functions
+# Chapter 10: Functions
 
 ## 1. What is a Function?
 - A **function** is a reusable block of code that performs a specific task.
@@ -89,6 +89,39 @@ def say_hi():
 result = say_hi()
 print(result)  # Output: None
 ```
+
+---
+
+## 9. Order of Parameters: Required vs Default
+
+In Python, **non-default (required)** parameters must come **before** any **default** parameters in a function definition. If not, you'll get a `SyntaxError`.
+
+This is because once Python starts assigning default values, it assumes all remaining parameters also have defaults.
+
+### ❌ Invalid Example (will raise error):
+```python
+def add_numbers(a, b=2, c):
+    print(a + b + c)
+
+add_numbers(a=1, c=3)
+```
+
+**Error:**
+```text
+SyntaxError: non-default argument follows default argument
+```
+
+---
+
+### ✅ Corrected Example:
+```python
+def add_numbers(a, c, b=2):
+    print(a + b + c)
+
+add_numbers(a=1, c=3)  # Output: 6
+```
+
+➡️ **Fix:** Move `c` (a required param) before `b=2` (a default param).
 
 ---
 
