@@ -1,4 +1,4 @@
-# Chapter 9: Lists and Basic Data Structures
+# Chapter 9: Lists in Python
 
 ## 1. What is a List?
 - A **list** is a collection of ordered, changeable (mutable) items.
