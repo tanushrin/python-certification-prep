@@ -10,7 +10,7 @@
 6. [Data Types and Type Conversion](Chapter6_Data_Types_Type_Conversion.md)
 7. [Conditional Execution](Chapter7_Conditional_Execution.md)
 8. [Loops and Control Statements](Chapter8_Loops_and_Control.md)
-9. [Lists](Chapter9_Lists_and_Data_Structures.md)
+9. [Lists](Chapter9_Lists_in_Python.md)
 10. [Tuples](Chapter10_Tuples_in_Python.md)
 11. [Dictionaries](Chapter11_Dictionaries_in_Python.md)
 12. [Functions](Chapter12_Functions.md)
