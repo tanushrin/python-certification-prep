@@ -80,7 +80,7 @@ except:
     print("General error")
 except (ValueError, ZeroDivisionError):
     print("Specific error")
-
+```
 ---
 
 ## 🚨 Common Python Exceptions – Quick Reference
