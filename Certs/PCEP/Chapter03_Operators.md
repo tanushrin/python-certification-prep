@@ -126,6 +126,7 @@ Bitwise operators perform operations at the **bit level** and are used only with
 | `<<`     | Left Shift  | Shifts bits left (same as `x * 2**n`)       | `4 << 2 → 16`  |
 | `>>`     | Right Shift | Shifts bits right (same as `x // 2**n`)     | `4 >> 2 → 1`   |
 
+**Quick Trick:**  ~x = -x - 1
 
 ---
 
