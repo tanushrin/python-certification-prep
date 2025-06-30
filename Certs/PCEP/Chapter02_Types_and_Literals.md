@@ -129,4 +129,4 @@ print(2 == "2")     # False → str is not comparable to int
 print(1 == True)    # True → True is treated as 1
 print(0 == False)   # True → False is treated as 0
 
----
+
