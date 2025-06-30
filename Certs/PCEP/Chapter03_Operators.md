@@ -117,14 +117,15 @@ x = x ** 2                    # ➝ x **= 2
 
 Bitwise operators perform operations at the **bit level** and are used only with integers.
 
-| Operator | Name             | Description                                | Example        |
-|----------|------------------|--------------------------------------------|----------------|
-| `&`      | AND              | 1 if both bits are 1                        | `4 & 5 → 4`    |
-| `|`      | OR               | 1 if at least one bit is 1                  | `4 | 5 → 5`    |
-| `^`      | XOR              | 1 if bits are different                     | `4 ^ 5 → 1`    |
-| `~`      | NOT              | Inverts all bits (`~x = -x - 1`)            | `~4 → -5`      |
-| `<<`     | Left Shift       | Shifts bits left (same as `x * 2**n`)       | `4 << 2 → 16`  |
-| `>>`     | Right Shift      | Shifts bits right (same as `x // 2**n`)     | `4 >> 2 → 1`   |
+| Operator | Name        | Description                                | Example        |
+|----------|-------------|--------------------------------------------|----------------|
+| `&`      | AND         | 1 if both bits are 1                        | `4 & 5 → 4`    |
+| \|       | OR          | 1 if at least one bit is 1                  | `4 \| 5 → 5`   |
+| `^`      | XOR         | 1 if bits are different                     | `4 ^ 5 → 1`    |
+| `~`      | NOT         | Inverts all bits (`~x = -x - 1`)            | `~4 → -5`      |
+| `<<`     | Left Shift  | Shifts bits left (same as `x * 2**n`)       | `4 << 2 → 16`  |
+| `>>`     | Right Shift | Shifts bits right (same as `x // 2**n`)     | `4 >> 2 → 1`   |
+
 
 ---
 
