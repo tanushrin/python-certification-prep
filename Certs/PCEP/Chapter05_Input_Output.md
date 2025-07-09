@@ -1,4 +1,4 @@
-# 📤 Chapter 5: Basic Input and Output in Python
+# 📘 Chapter 5: Basic Input and Output in Python
 
 ## 1. `input()` Function
 - Used to get input from the user.
