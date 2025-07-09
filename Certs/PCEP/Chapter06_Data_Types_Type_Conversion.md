@@ -1,4 +1,4 @@
-# 🧠 Chapter 6: Data Types and Type Conversion
+# 📘 Chapter 6: Data Types and Type Conversion
 
 ## 1. Built-in Data Types
 
