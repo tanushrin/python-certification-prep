@@ -1,4 +1,4 @@
-# 📘 Chapter 12: Errors and Exceptions
+# 📘 Chapter 14: Errors and Exceptions
 
 ## 1. What is an Exception?
 - An **exception** is an error that occurs during program execution.
