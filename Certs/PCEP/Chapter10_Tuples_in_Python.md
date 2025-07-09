@@ -1,4 +1,4 @@
-# Chapter 10: Tuples in Python
+# 📘 Chapter 10: Tuples in Python
 
 ## 1. What is a Tuple?
 - A **tuple** is a collection of **ordered**, **unchangeable (immutable)** items.
