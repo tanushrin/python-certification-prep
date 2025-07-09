@@ -17,5 +17,6 @@
 13. [Modules and Imports](Chapter13_Modules_and_Imports.md)
 14. [Errors and Exceptions](Chapter14_Errors_and_Exceptions.md)
 15. [File Handling](Chapter15_File_Handling.md)
+16. [Multi-Dimensional Lists](Nested_Lists_Multidim.md)
 
 > ✅ Continually updated with more chapters and quick-reference examples.
