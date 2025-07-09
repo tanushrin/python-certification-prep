@@ -1,4 +1,4 @@
-# 📘 Chapter 10: Functions
+# 📘 Chapter 12: Functions
 
 ## 1. What is a Function?
 - A **function** is a reusable block of code that performs a specific task.
