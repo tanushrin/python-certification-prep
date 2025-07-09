@@ -1,4 +1,4 @@
-# 🧮 Chapter 2: Python Basic Types and Literals
+# 📘 Chapter 2: Python Basic Types and Literals
 
 ## 1. What is a Literal?
 - A **literal** is a fixed value directly represented in code.
