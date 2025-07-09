@@ -1,4 +1,4 @@
-# Chapter 11: Dictionaries in Python
+# 📘 Chapter 11: Dictionaries in Python
 
 ## 1. What is a Dictionary?
 
