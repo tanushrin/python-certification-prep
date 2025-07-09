@@ -1,4 +1,4 @@
-# 📦 Chapter 11: Modules and Imports
+# 📘 Chapter 11: Modules and Imports
 
 ## 1. What is a Module?
 - A **module** is a file containing Python code (usually functions, classes, variables).
