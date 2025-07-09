@@ -1,4 +1,4 @@
-# 💬 Chapter 4: Variables, Assignments & Comments
+# 📘 Chapter 4: Variables, Assignments & Comments
 
 ## 1. What is a Variable?
 - A **variable** is a named container to store data.
