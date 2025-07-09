@@ -1,4 +1,4 @@
-# 🔁 Chapter 7: Conditional Execution
+# 📘 Chapter 7: Conditional Execution
 
 ## 1. The `if` Statement
 
