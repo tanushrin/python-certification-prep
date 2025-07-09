@@ -1,4 +1,4 @@
-# Chapter 3: Operators
+# 📘 Chapter 3: Operators
 
 ## 1. What is an Operator?
 - An **operator** performs an operation on one or more operands.
