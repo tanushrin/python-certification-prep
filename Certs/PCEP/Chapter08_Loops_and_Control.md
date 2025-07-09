@@ -1,4 +1,4 @@
-# 🔁 Chapter 8: Loops and Control Statements
+# 📘 Chapter 8: Loops and Control Statements
 
 ## 1. The `while` Loop
 
