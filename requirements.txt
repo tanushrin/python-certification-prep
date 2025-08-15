@@ -1,0 +1,22 @@
+# Core development dependencies
+jupyter>=1.0.0
+notebook>=6.4.0
+jupyterlab>=3.0.0
+
+# Code formatting and linting
+black>=22.0.0
+pylint>=2.13.0
+isort>=5.10.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=3.0.0
+
+# Additional utilities for Python learning
+matplotlib>=3.5.0
+numpy>=1.21.0
+pandas>=1.4.0
+
+# Documentation
+mkdocs>=1.4.0
+mkdocs-material>=8.0.0

@@ -1,0 +1,19 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "ms-python.black-formatter",
+        "ms-python.isort",
+        "ms-python.pylint",
+        "ms-vscode.vscode-json",
+        "yzhang.markdown-all-in-one",
+        "davidanson.vscode-markdownlint",
+        "streetsidesoftware.code-spell-checker",
+        "github.vscode-pull-request-github",
+        "github.copilot"
+    ],
+    "unwantedRecommendations": [
+        "ms-python.flake8"
+    ]
+}
